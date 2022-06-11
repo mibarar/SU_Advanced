@@ -14,7 +14,6 @@ for r in range(rows-(n-1)):
 
             sum_r += sum(matrix[r+l][c:c+n])
 
-        #temp_sum = matrix[r][c]+matrix[r][c+1] +matrix[r+1][c]+matrix[r+1][c+1]
         if sum_r>first_sum:
             first_sum=sum_r
             final_col = c
